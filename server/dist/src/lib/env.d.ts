@@ -1,0 +1,30 @@
+export declare const env: {
+    nodeEnv: string;
+    port: number;
+    databaseUrl: string;
+    betterAuthSecret: string;
+    betterAuthUrl: string;
+    trustedOrigin: string;
+    trustedOrigins: string[];
+    supportEmail: string;
+    googleClientId: string | undefined;
+    googleClientSecret: string | undefined;
+    cloudinaryCloudName: string | undefined;
+    cloudinaryApiKey: string | undefined;
+    cloudinaryApiSecret: string | undefined;
+    stripeSecretKey: string | undefined;
+    stripePublicKey: string | undefined;
+    stripeWebhookSecret: string;
+    stripeCurrency: string;
+    stripeSuccessUrl: string;
+    stripeCancelUrl: string;
+    deliveryFeeInsideCity: number;
+    deliveryFeeOutsideCity: number;
+    rateLimitWindowMs: number;
+    rateLimitMax: number;
+    smtpUser: string | undefined;
+    smtpPass: string | undefined;
+    smtpFromEmail: string | undefined;
+    vercel: string | undefined;
+};
+//# sourceMappingURL=env.d.ts.map

@@ -1,0 +1,45 @@
+export declare function getStoreSettings(): Promise<{
+    id: number;
+    updatedAt: Date;
+    currency: string;
+    storeName: string;
+    tagline: string;
+    supportEmail: string;
+    supportPhone: string;
+    storeAddress: string;
+    insideCityFee: import("@prisma/client/runtime/client").Decimal;
+    outsideCityFee: import("@prisma/client/runtime/client").Decimal;
+    freeShippingMinOrder: import("@prisma/client/runtime/client").Decimal;
+    estimatedDeliveryDays: string;
+    enableCOD: boolean;
+    enableSSLCommerz: boolean;
+    enableStripe: boolean;
+    vatTaxRate: string;
+    metaTitle: string;
+    metaDescription: string;
+    instagram: string;
+    facebook: string;
+}>;
+export declare function updateStoreSettings(data: any): Promise<{
+    id: number;
+    updatedAt: Date;
+    currency: string;
+    storeName: string;
+    tagline: string;
+    supportEmail: string;
+    supportPhone: string;
+    storeAddress: string;
+    insideCityFee: import("@prisma/client/runtime/client").Decimal;
+    outsideCityFee: import("@prisma/client/runtime/client").Decimal;
+    freeShippingMinOrder: import("@prisma/client/runtime/client").Decimal;
+    estimatedDeliveryDays: string;
+    enableCOD: boolean;
+    enableSSLCommerz: boolean;
+    enableStripe: boolean;
+    vatTaxRate: string;
+    metaTitle: string;
+    metaDescription: string;
+    instagram: string;
+    facebook: string;
+}>;
+//# sourceMappingURL=setting.service.d.ts.map
